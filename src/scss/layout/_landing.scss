@@ -21,5 +21,32 @@
   &__description{
     margin: 0 0 20px;
   }
+  .button{
+    height: 45px;
+    overflow: hidden;
+    span{
+      display: block;
+      position: relative;
+      bottom: 0;
+      height: 45px;
+      margin: 0 auto;
+      transition: all 300ms ease;
+      overflow: hidden;
+      text-align: center;
+    }
+    .icon{
+      opacity: 0;
+    }
+    &:hover{
+      .text{
+        opacity: 0;
+        bottom: 45px;
+      }
+      .icon{
+        opacity: 1;
+        bottom: 45px;
+      }
+    }
+  }
 }
 
