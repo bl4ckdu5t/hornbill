@@ -1,0 +1,25 @@
+.landing{
+  height: 100vh;
+  padding-top: 200px;
+  text-align: center;
+  background: url(/dist/images/inspiration-geometry.png) $color-brand-1;
+  color: $white;
+  &__logo{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 25px 15px;
+    border: solid medium $white;
+    border-radius: 50%;
+    img{
+      width: 120px;
+    }
+  }
+  &__caption{
+    font-weight: 300;
+  }
+  &__description{
+    margin: 0 0 20px;
+  }
+}
+

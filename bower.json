@@ -1,0 +1,24 @@
+{
+  "name": "hornbill",
+  "description": "Hornbill Payments",
+  "main": "gulpfile.js",
+  "authors": [
+    "Joseph Rex <joerexko@gmail.com>"
+  ],
+  "license": "Unlicense",
+  "keywords": [
+    "payment",
+    "interview",
+    "paystack"
+  ],
+  "homepage": "https://github.com/bl4ckdu5t/hornbill",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}

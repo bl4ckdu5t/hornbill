@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hornbill - Pay Faster and Safer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/bundle.css">
+
+    <script src="//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <main class="paybox">
+      <img src="/dist/images/logo.png" class="logo paybox__logo" alt="hornbill">
+      <h1 class="paybox__heading">HornBill</h1>
+      <div class="paybox__switch">
+        <input type="radio" id="card" name="view" value="card" checked>
+        <label for="card" class="paybox__label-off">Card</label>
+        <input type="radio" id="bank" name="view" value="bank">
+        <label for="bank" class="paybox__label-on">Bank</label>
+        <span class="paybox__switch__button">&nbsp;</span>
+      </div>
+      <div class="paybox__form">
+        <form method="post" action="4chan.com😎">
+          <div class="pay__form__content pay__form__content--bank" style="height:0; visibility: hidden">
+            <div class="row">
+              <div class="col">
+                <label for="number">Bank</label>
+                <select class="form__input form__input--wide">
+                  <option selected disabled>Select a bank</option>
+                  <option>World Bank of Awesomeness</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="number">Account Number</label>
+                <input type="text" class="form__input form__input--wide">
+              </div>
+            </div>
+          </div>
+          <div class="pay__form__content pay__form__content--card">
+            <div class="row">
+              <div class="col">
+                <label for="number">Card No.</label>
+                <input type="text" class="form__input form__input--wide">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="number">Expiry</label>
+                <input type="text" class="form__input form__input--wide">
+              </div>
+              <div class="col">
+                <label for="number">CVV <dfn title="You should know what this mean by now. Don't make us explain">?</dfn></label>
+                <input type="text" class="form__input form__input--wide">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="button" id="payBtn" class="button button--block button--cta button--lg">Pay $100.00</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="paybox__check">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.5 98.5">
+          <path class="checkmark" fill="none" stroke-width="8" stroke-miterlimit="10" d="M81.7,17.8C73.5,9.3,62,4,49.2,4
+        C24.3,4,4,24.3,4,49.2s20.3,45.2,45.2,45.2s45.2-20.3,45.2-45.2c0-8.6-2.4-16.6-6.5-23.4l0,0L45.6,68.2L24.7,47.3"/>
+        </svg>
+        <h4>Payment Successful</h4>
+      </div>
+    </main>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <script src="dist/js/app.js"></script>
+  </body>
+</html>
+

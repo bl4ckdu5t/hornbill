@@ -1,0 +1,44 @@
+.dropdown{
+  display: none;
+  background: $white;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba($black, .2);
+  font-size: 1.2rem;
+  a{
+    display: block;
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  svg{
+    margin-right: 10px;
+  }
+  @include breakpoint($breakpoint-tablet-portrait){
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    max-width: 200px;
+    z-index: 1000;
+    &::before{
+      content: '';
+      position: absolute;
+      top: -8px;
+      right: 5%;
+      width: 15px;
+      height: 15px;
+      background: $white;
+      border-left: solid thin rgba($black, .1);
+      border-top: solid thin rgba($black, .1);
+      transform: rotate(45deg);
+    }
+    &--user{
+      right: 30px;
+    }
+  }
+  @include breakpoint($breakpoint-tablet-landscape){
+    &::before{
+      right: 36%;
+    }
+  }
+}
